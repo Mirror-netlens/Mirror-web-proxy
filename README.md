@@ -1,13 +1,13 @@
-## Titanium Web Proxy
+## Mirror Web Proxy
 
 A lightweight HTTP(S) proxy server written in C#.
 
-[![.NET Core](https://github.com/justcoding121/titanium-web-proxy/actions/workflows/dotnetcore.yml/badge.svg?branch=develop)](https://github.com/justcoding121/titanium-web-proxy/actions/workflows/dotnetcore.yml) [![Join the chat at https://gitter.im/Titanium-Web-Proxy/Lobby](https://badges.gitter.im/Titanium-Web-Proxy/Lobby.svg)](https://gitter.im/Titanium-Web-Proxy/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![.NET Core](https://github.com/justcoding121/titanium-web-proxy/actions/workflows/dotnetcore.yml/badge.svg?branch=develop)](https://github.com/justcoding121/titanium-web-proxy/actions/workflows/dotnetcore.yml) [![Join the chat at https://gitter.im/Mirror-Web-Proxy/Lobby](https://badges.gitter.im/Mirror-Web-Proxy/Lobby.svg)](https://gitter.im/Mirror-Web-Proxy/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Report bugs or raise issues here. For programming help use [StackOverflow](http://stackoverflow.com/questions/tagged/titanium-web-proxy) with the tag Titanium-Web-Proxy.
+Report bugs or raise issues here. For programming help use [StackOverflow](http://stackoverflow.com/questions/tagged/titanium-web-proxy) with the tag Mirror-Web-Proxy.
 
-* [API Documentation](https://justcoding121.github.io/titanium-web-proxy/docs/api/Titanium.Web.Proxy.ProxyServer.html)
-* [Wiki & Contribution guidelines](https://github.com/justcoding121/Titanium-Web-Proxy/wiki)
+* [API Documentation](https://justcoding121.github.io/titanium-web-proxy/docs/api/Mirror.Web.Proxy.ProxyServer.html)
+* [Wiki & Contribution guidelines](https://github.com/justcoding121/Mirror-Web-Proxy/wiki)
 
 ### Features
 
@@ -18,15 +18,15 @@ Report bugs or raise issues here. For programming help use [StackOverflow](http:
 * SOCKS4/5 Proxy support
 
 ### Installation
-Install by [nuget](https://www.nuget.org/packages/Titanium.Web.Proxy)
+Install by [nuget](https://www.nuget.org/packages/Mirror.Web.Proxy)
 
-For beta releases on [beta branch](https://github.com/justcoding121/Titanium-Web-Proxy/tree/beta)
+For beta releases on [beta branch](https://github.com/justcoding121/Mirror-Web-Proxy/tree/beta)
 
-    Install-Package Titanium.Web.Proxy -Pre
+    Install-Package Mirror.Web.Proxy -Pre
 
-For stable releases on [stable branch](https://github.com/justcoding121/Titanium-Web-Proxy/tree/stable)
+For stable releases on [stable branch](https://github.com/justcoding121/Mirror-Web-Proxy/tree/stable)
 
-    Install-Package Titanium.Web.Proxy
+    Install-Package Mirror.Web.Proxy
 
 Supports
 
@@ -37,9 +37,9 @@ Supports
 
 #### Road map
 
-* Fix [outstanding bugs](https://github.com/justcoding121/Titanium-Web-Proxy/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
-* Support reading request and response body as stream [#823](https://github.com/justcoding121/Titanium-Web-Proxy/issues/823)
-* Stop throwing new exceptions [#634](https://github.com/justcoding121/Titanium-Web-Proxy/issues/634)
+* Fix [outstanding bugs](https://github.com/justcoding121/Mirror-Web-Proxy/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
+* Support reading request and response body as stream [#823](https://github.com/justcoding121/Mirror-Web-Proxy/issues/823)
+* Stop throwing new exceptions [#634](https://github.com/justcoding121/Mirror-Web-Proxy/issues/634)
 * Support HTTP 2.0 
 
 #### Collaborators
@@ -245,8 +245,8 @@ public Task OnCertificateSelection(object sender, CertificateSelectionEventArgs 
 
 **Console example application screenshot**
 
-![alt tag](https://raw.githubusercontent.com/justcoding121/Titanium-Web-Proxy/develop/examples/Titanium.Web.Proxy.Examples.Basic/Capture.PNG)
+![alt tag](https://raw.githubusercontent.com/justcoding121/Mirror-Web-Proxy/develop/examples/Mirror.Web.Proxy.Examples.Basic/Capture.PNG)
 
 **GUI example application screenshot**
 
-![alt tag](https://raw.githubusercontent.com/justcoding121/Titanium-Web-Proxy/develop/examples/Titanium.Web.Proxy.Examples.Wpf/Capture.PNG)
+![alt tag](https://raw.githubusercontent.com/justcoding121/Mirror-Web-Proxy/develop/examples/Mirror.Web.Proxy.Examples.Wpf/Capture.PNG)
